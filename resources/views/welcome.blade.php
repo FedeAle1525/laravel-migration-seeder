@@ -19,7 +19,8 @@
                     </div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">{{$train->departure_station}} - {{$train->arrival_station}}</li>
-                        <li class="list-group-item">{{$train->departure_time}} - {{$train->arrival_time}}</li>
+                        <li class="list-group-item">Data: {{$train->departure_date}}</li>
+                        <li class="list-group-item">Orario: {{$train->departure_time}} - {{$train->arrival_time}}</li>
                     </ul>
                 </div>
             </div>
