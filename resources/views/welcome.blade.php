@@ -4,7 +4,7 @@
 
 <main>
     <div class="container">
-        Inserire Contenuto
+        TRAINS
     </div>
 </main>
 
