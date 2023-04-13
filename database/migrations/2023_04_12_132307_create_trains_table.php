@@ -18,10 +18,11 @@ return new class extends Migration
             $table->string('company', 100);
             $table->string('departure_station', 100);
             $table->string('arrival_station', 100);
+            // Usare tipo "dateTime" per aggiungere data all'orario
             $table->time('departure_time');
             $table->time('arrival_time');
             $table->string('code', 10);
-            $table->tinyInteger('number_of_carriage');
+            $table->tinyInteger('number_of_carriage')->unsigned();
             $table->boolean('in_time')->default(1);
             $table->boolean('deleted')->default(0);
             $table->timestamps();
